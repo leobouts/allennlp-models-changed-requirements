@@ -18,7 +18,7 @@ class SemanticRoleLabelerPredictor(Predictor):
     """
 
     def __init__(
-        self, model: Model, dataset_reader: DatasetReader, language: str = "en_core_web_sm"
+        self, model: Model, dataset_reader: DatasetReader, language: str = "el_core_news_sm"
     ) -> None:
         super().__init__(model, dataset_reader)
         self._language = language
